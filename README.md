@@ -19,7 +19,7 @@ flask run
 ## Como fazer as migracoes
 
 '''sh
-flask db init
-flask db migrate
+flask db init \
+flask db migrate \
 flask db upgrade 
 '''
